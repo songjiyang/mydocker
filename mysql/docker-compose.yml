@@ -3,6 +3,7 @@ services:
   db:
     image: mysql:5.7
     restart: always
+    container_name: mysql
     environment:
       MYSQL_DATABASE: mall
       # You can use whatever password you like

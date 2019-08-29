@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  redis:
+    # 指定镜像
+    image: redis:4
+    container_name: redis
+    ports:
+      # 端口映射
+      - 6379:6379
+    volumes:
+      # 目录映射
+      - ./dbData:/data
