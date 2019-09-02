@@ -33,4 +33,7 @@ docker-compose up -d
 
 #### elasticsearch
 
-[官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html), 自己将数据放入dbData
+[官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
+
+- 将数据放入dbData, 加入kibana, 要放入同一个网络，kibana要等elasticsearch加载好才能加载，时间可能稍微有点长，macbook air等了快10分钟。
+- [Kibana server is not ready yet解决方法](https://blog.csdn.net/qq_38796327/article/details/90480314)
