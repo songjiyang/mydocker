@@ -33,4 +33,4 @@ docker-compose up -d
 
 #### elasticsearch
 
-[参考文章](https://www.cnblogs.com/mxmbk/p/9969008.html), 我在本地只用了master节点
+[官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html), 自己将数据放入dbData
