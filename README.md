@@ -30,3 +30,7 @@ docker-compose up -d
 ```
 
 - 客户端`docker exec -it redis redis-cli`, redis是容器名称
+
+#### elasticsearch
+
+[参考文章](https://www.cnblogs.com/mxmbk/p/9969008.html), 我在本地只用了master节点

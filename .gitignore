@@ -1,1 +1,5 @@
 **/dbData
+elasticsearch/master/data
+elasticsearch/master/logs
+elasticsearch/node*/data
+elasticsearch/node*/logs
