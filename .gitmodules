@@ -1,0 +1,3 @@
+[submodule "mysql/mysql-replication-sample"]
+	path = mysql/mysql-replication-sample
+	url = https://github.com/TomCzHen/mysql-replication-sample.git
